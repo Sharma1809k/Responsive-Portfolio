@@ -122,15 +122,11 @@ footer {
     padding-bottom: 30px
 }
 
-    
-@media screen and (max-width: 768px) {
- 
-                        
-    .content{  
-        max-width: 95%;
-    }
-    
-  
+@media screen and (max-width: 768px){
+
+.content {
+    max-width: 95%;
+}
 .navbar {
     height: 75px;
 }
@@ -161,7 +157,24 @@ h3{
 
 @media screen and (max-width: 640px) {
 
+.navbar {
+position: default;
+overflow: unset;
+}
 #name {
-    margin-right: 10%;
+margin:0;
+width: 100%
+}
+.pages a {
+background:#fff;
+border-bottom: 1px solid #ccc;
+width: 33.3%;
+text-align: center;
+padding: 20px;
+font-size: 15px;
+}
+.pages a:hover {
+    background: #ccc;
+    color:#4aaaa5;
 }
 }
