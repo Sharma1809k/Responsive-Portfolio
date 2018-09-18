@@ -122,6 +122,19 @@ footer {
     padding-bottom: 30px
 }
 
+@media screen and (max-width: 980px){
+.content {
+    max-width: 95%;
+}
+#name {
+    margin-left: 3%;
+    margin-right: 7%
+}
+.pages a {
+    width: 15%
+}
+}
+
 @media screen and (max-width: 768px){
 
 .content {
